@@ -31,3 +31,14 @@ function showSection(sectionId) {
         visionSection.style.display = "block";
     }
 }
+
+//Show or hide Katherine's moodboard
+function toggleMoodboard(id) {
+    const moodboard = document.getElementById(id);
+
+    if (moodboard.style.display === "block") {
+        moodboard.style.display = "none";
+    } else {
+        moodboard.style.display = "block";
+    }
+}
