@@ -8,9 +8,9 @@ body {
 
 /* Header section styling */
 header {
-    background: #333;
-    color: #fff;
-    padding: 10px 0;
+    background: #292D30;
+    color: white;
+    padding: 20px 0;
     text-align: center;
 }
 
@@ -26,7 +26,7 @@ header nav {
 }
 
 header nav button {
-    background: #007BFF;
+    background: #416B45;
     color: white;
     border: none;
     padding: 10px 15px;
@@ -36,7 +36,7 @@ header nav button {
 }
 
 header nav button:hover {
-    background: #0056b3;
+    background: #315235;
 }
 
 /* Flex container for team bios and vision sections */
@@ -80,7 +80,7 @@ h2 {
 
 /* Button styling */
 button {
-    background: #007BFF;
+    background: #416B45;
     color: white;
     border: none;
     padding: 10px 15px;
@@ -89,7 +89,7 @@ button {
 }
 
 button:hover {
-    background: #0056b3;
+    background: #315235;
 }
 .profile-avatar {
     display: block;
@@ -136,4 +136,21 @@ button:hover {
 .moodboard-item p {
     font-size: 13px;
     margin-top: 5px;
+}
+
+/* Status 200 - Mission Section */
+#vision {
+    background-color: #f4f8f4;
+    border: 2px solid #8FAF91;
+    border-radius: 12px;
+    padding: 25px;
+    margin: 30px auto;
+    max-width: 800px;
+    color: #222222;
+}
+
+/* Mission section headings */
+#vision h2,
+#vision h3 {
+    color: #222222
 }
